@@ -1,6 +1,8 @@
 Set of commands to train a CV model:
 ```
 bash data/scripts/get_coco128.sh
+python train.py --data data/coco128.yaml --weights yolov5s.pt --epochs 10 --batch-size 16 --device 0
+python val.py --data data/coco128.yaml --weights runs/train/exp/weights/best.pt --device 0
 ```
 
 To do error mining:

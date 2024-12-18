@@ -1,7 +1,11 @@
 Set of commands to train a CV model:
 ```
 bash data/scripts/get_coco128.sh
+```
 
+To do error mining:
+```
+python error_mining.py
 ```
 
 

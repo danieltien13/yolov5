@@ -1,3 +1,10 @@
+Set of commands to train a CV model:
+```
+bash data/scripts/get_coco128.sh
+
+```
+
+
 <div align="center">
   <p>
     <a href="https://www.ultralytics.com/events/yolovision" target="_blank">
